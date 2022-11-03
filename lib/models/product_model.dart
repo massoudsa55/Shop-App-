@@ -1,5 +1,6 @@
 // For demo only
-import 'package:shop/constants.dart';
+
+import '../constants.dart';
 
 class ProductModel {
   final String image, brandName, title;

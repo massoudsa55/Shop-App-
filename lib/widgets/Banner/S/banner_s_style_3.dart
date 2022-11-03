@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:shop/components/Banner/S/banner_s.dart';
-import 'package:shop/constants.dart';
+
+import '../../../constants.dart';
+import 'banner_s.dart';
 
 class BannerSStyle3 extends StatelessWidget {
   const BannerSStyle3({
@@ -30,18 +31,20 @@ class BannerSStyle3 extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    if (subTitle != null) Text(
-                      subTitle!,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontFamily: grandisExtendedFont,
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
+                    if (subTitle != null)
+                      Text(
+                        subTitle!,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontFamily: grandisExtendedFont,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                    ),
-                     if (subTitle != null) const SizedBox(height: defaultPadding / 4),
+                    if (subTitle != null)
+                      const SizedBox(height: defaultPadding / 4),
                     Text(
-                     title.toUpperCase(),
+                      title.toUpperCase(),
                       style: const TextStyle(
                         fontFamily: grandisExtendedFont,
                         color: Colors.white,

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '/components/Banner/M/banner_m_with_counter.dart';
-import '../../../../components/product/product_card.dart';
+import '../../../../widgets/Banner/M/banner_m_with_counter.dart';
+import '../../../../widgets/product/product_card.dart';
 import '../../../../models/product_model.dart';
 
 import '../../../../constants.dart';

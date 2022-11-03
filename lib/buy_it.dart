@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shop/constants.dart';
+
+import 'constants.dart';
 
 class BuyIt extends StatelessWidget {
   const BuyIt({Key? key}) : super(key: key);

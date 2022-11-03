@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_svg/svg.dart';
 
 import '../../../constants.dart';
@@ -84,7 +83,7 @@ class BannerSStyle4 extends StatelessWidget {
                   onPressed: press,
                   style: ElevatedButton.styleFrom(
                     shape: const CircleBorder(),
-                    primary: Colors.white,
+                    backgroundColor: Colors.white,
                   ),
                   child: SvgPicture.asset(
                     "assets/icons/Arrow - Right.svg",

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:shop/components/product/product_card.dart';
-import 'package:shop/models/product_model.dart';
-import 'package:shop/route/screen_export.dart';
 
 import '../../../../constants.dart';
+import '../../../../models/product_model.dart';
+import '../../../../widgets/product/product_card.dart';
 
 class PopularProducts extends StatelessWidget {
   const PopularProducts({

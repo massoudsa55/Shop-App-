@@ -1,18 +1,19 @@
 import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:shop/buy_it.dart';
-import 'package:shop/constants.dart';
-import 'package:shop/route/screen_export.dart';
+
+import 'buy_it.dart';
+import 'constants.dart';
+import 'screens/home/views/home_screen.dart';
 
 class EntryPoint extends StatefulWidget {
   const EntryPoint({Key? key}) : super(key: key);
 
   @override
-  _EntryPointState createState() => _EntryPointState();
+  EntryPointState createState() => EntryPointState();
 }
 
-class _EntryPointState extends State<EntryPoint> {
+class EntryPointState extends State<EntryPoint> {
   final List _pages = const [
     HomeScreen(),
     BuyIt(),
